@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func buttonPressed(_ sender: Any) {
         myLabel.text = myTextField.text
         myTextField.text = ""
+        myTextField.resignFirstResponder()
         
         
     }
